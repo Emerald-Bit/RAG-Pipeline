@@ -3,6 +3,10 @@
 
 [Click here to try the live app](https://emerald-bit.github.io/)
 
+
+![Image](https://github.com/user-attachments/assets/28f33107-46cb-4735-a02f-567b8648909a)
+
+
 **The Problem**
 
 In an age where political transparency is increasingly shaping public discourse, staying informed about parliamentary proceedings is more critical than ever. However, tracking political accountability within the UK is notoriously difficult. This is largely due to the sheer volume of dense, scattered parliamentary data that is produced on a weekly basis. For constituents and journalists alike, there is a pressing need for a fast, reliable method to cut through the noise and analyse exactly what Members of Parliament are doing and saying.
