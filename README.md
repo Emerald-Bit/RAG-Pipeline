@@ -27,5 +27,5 @@ To address this hurdle, I have developed an automated, scalable Retrieval-Augmen
 - **Automated Data Pipeline:** An Airflow DAG routinely scrapes the UK Parliament API, vectorises Written Ministerial Statements, Written Questions, and EDMs, and pushes them to Pinecone, ensuring the AI's knowledge base is never stale.
 - **Optimised Chunking Strategy:** Implemented sentence-aware text splitting (400–600 tokens). This prevents semantic meaning from being violently cut in half between chunks, maximising retrieval accuracy while keeping memory demands low.
 - **Robust Evaluation:** Utilised Evidently AI's "LLM-as-a-judge" framework to evaluate the retriever's semantic similarity and ensure high-quality contextual matches before pushing to production.
-- **Production-Grade API:** Built with FastAPI, secured via SlowAPI rate-limiting (preventing token-drain attacks), ans strict Pydantic payload validation.
+- **Production-Grade API:** Built with FastAPI, secured via SlowAPI rate-limiting (preventing token-drain attacks), and strict Pydantic payload validation.
 - **Full Observability:** Instrumented with custom LangChain callbacks feeding into Prometheus and Grafana to track LLM latency, Vector DB search times, and exact token consumption in real-time.
